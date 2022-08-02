@@ -35,19 +35,20 @@ opfor_house = "Land_vn_bunker_small_01";
 opfor_patrol = "Land_vn_b_tower_01";
 opfor_hq = "Land_vn_bunker_big_02";
 
+// militia is now ARVN
 militia_squad = [
-	"vn_b_men_seal_01",
-	"vn_b_men_seal_10",
-	"vn_b_men_seal_11",
-	"vn_b_men_seal_02",	
-	"vn_b_men_seal_06",
-	"vn_b_men_seal_08",
-	"vn_b_men_seal_03",
-	"vn_b_men_seal_05",
-	"vn_b_men_seal_04",
-	"vn_b_men_seal_13",
-	"vn_b_men_seal_17",
-	"vn_b_men_seal_09"
+	"vn_i_men_army_01",	// officer
+	"vn_i_men_army_10",	// marskman
+	"vn_i_men_army_11",	// machinegunner
+	"vn_i_men_army_02",	// squad leader
+	"vn_i_men_army_07",	// grenadier
+	"vn_i_men_army_22",	// Quan Canh Policeman (Military police)
+	"vn_i_men_sf_01",	// LLDB Officer 
+	"vn_i_men_sf_06",	// LLDB Machinegunner
+	"vn_i_men_sf_03",	// LLDB Medic
+	"vn_i_men_sf_12",	// LLDB RAT
+	"vn_i_men_sf_09",	// LLDB Scout (Shotgun)
+	"vn_i_men_sf_10"	// LLD Marksman
 ];
 
 militia_loadout_overide = [
@@ -61,13 +62,14 @@ divers_squad = [
 	"vn_b_men_seal_33"
 ];
 
-militia_vehicles = [
-	"vn_b_wheeled_m151_mg_04_mp",
-	"vn_b_wheeled_m151_mg_04_mp",
-	"vn_b_wheeled_m151_mg_02_mp",
-	"vn_b_wheeled_m151_mg_03_mp",
-	"vn_b_wheeled_m151_02_mp",
-	"vn_b_wheeled_m151_01_mp"
+militia_vehicles = [	
+	// ALL NEW
+	"vn_i_wheeled_m151_mg_01_mp",
+	"vn_i_wheeled_m151_02_mp",
+	"vn_i_armor_m113_01",
+	"vn_i_armor_m113_acav_03",
+	"vn_i_wheeled_m151_mg_05_marines"
+	
 ];
 
 boats_east = [
@@ -228,11 +230,24 @@ opfor_recyclable = [
 	
 	// new
 	["vn_b_air_f100d_bmb",14,round (1200 / GRLIB_recycling_percentage),30],
-	["vn_b_armor_m113_01",2,round (50 / GRLIB_recycling_percentage),5],
-	["vn_b_armor_m113_acav_04",2,round (60 / GRLIB_recycling_percentage),5],
-	["vn_b_armor_m113_acav_06",2,round (80 / GRLIB_recycling_percentage),5],
+	["vn_b_armor_m113_01",2,round (60 / GRLIB_recycling_percentage),5],
+	["vn_b_armor_m113_acav_04",2,round (80 / GRLIB_recycling_percentage),5],
+	["vn_b_armor_m113_acav_06",2,round (100 / GRLIB_recycling_percentage),5],
 	["vn_b_boat_10_01",10,round (200 / GRLIB_recycling_percentage),20],
 	["vn_b_boat_12_04",10,round (200 / GRLIB_recycling_percentage),20],
 	["FP_B_TNK_M48A1",10,round (1000 / GRLIB_recycling_percentage),25],
 	["FP_B_TNK_M42",10,round (700 / GRLIB_recycling_percentage),25]
+	
+	// arvn
+	["vn_i_wheeled_m151_mg_01_mp",3,round (50 / GRLIB_recycling_percentage),6],
+	["vn_i_wheeled_m151_02_mp",3,round (50 / GRLIB_recycling_percentage),6],
+	["vn_i_armor_m113_01",3,round (60 / GRLIB_recycling_percentage),6],
+	["vn_i_armor_m113_acav_03",3,round (80 / GRLIB_recycling_percentage),6],
+	["vn_i_wheeled_m151_mg_05_marines",3,round (120 / GRLIB_recycling_percentage),6]
+	
+	
+	
+	
+	
+	
 ];
