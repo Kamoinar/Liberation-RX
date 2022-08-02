@@ -119,7 +119,8 @@ opfor_battlegroup_vehicles = [
 	"vn_b_armor_m113_01",		// new
 	"vn_b_armor_m113_acav_04",	// new
 	"vn_b_armor_m113_acav_06",	// new
-	"FP_B_TNK_M48A1" // new
+	"FP_B_TNK_M48A1", // new
+	"FP_B_TNK_M42" // new
 ];
 
 opfor_battlegroup_vehicles_low_intensity = [
