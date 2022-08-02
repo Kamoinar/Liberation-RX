@@ -74,7 +74,10 @@ boats_east = [
 	"vn_o_boat_02_mg_02",
 	"vn_o_boat_01_mg_02",
 	"vn_b_boat_06_01",
-	"vn_b_boat_05_01"
+	"vn_b_boat_05_01",
+	"vn_b_boat_10_01", // new
+	"vn_b_boat_12_04" // new
+	
 ];
 
 opfor_vehicles = [
@@ -85,13 +88,19 @@ opfor_vehicles = [
 	"vn_b_wheeled_m54_mg_03",
 	"vn_b_wheeled_m54_mg_02",
 	"vn_b_armor_m41_01_01",
-	"vn_b_wheeled_m151_mg_05"
+	"vn_b_wheeled_m151_mg_05",
+	"vn_b_armor_m113_01",		// new
+	"vn_b_armor_m113_acav_04",	// new
+	"vn_b_armor_m113_acav_06",	// new
+	"FP_B_TNK_M48A1", // new
+	"FP_B_TNK_M42" // new
 ];
 
 opfor_vehicles_low_intensity = [
 	"vn_b_wheeled_m151_mg_04",
 	"vn_b_wheeled_m151_mg_02",
-	"vn_b_wheeled_m151_mg_03"
+	"vn_b_wheeled_m151_mg_03",
+	"vn_b_armor_m113_01"		// new
 ];
 
 opfor_battlegroup_vehicles = [
@@ -106,7 +115,11 @@ opfor_battlegroup_vehicles = [
 	"vn_b_air_ch34_04_03",
 	"vn_b_air_uh1d_02_02",
 	"vn_b_wheeled_m54_01",
-	"vn_b_wheeled_m54_02"
+	"vn_b_wheeled_m54_02",
+	"vn_b_armor_m113_01",		// new
+	"vn_b_armor_m113_acav_04",	// new
+	"vn_b_armor_m113_acav_06",	// new
+	"FP_B_TNK_M48A1" // new
 ];
 
 opfor_battlegroup_vehicles_low_intensity = [
@@ -115,7 +128,8 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"vn_b_wheeled_m151_mg_03",
 	"vn_b_wheeled_m54_01",
 	"vn_b_wheeled_m54_02",
-	"vn_b_air_uh1d_02_02"
+	"vn_b_air_uh1d_02_02",
+	"vn_b_armor_m113_01" // new
 ];
 
 opfor_troup_transports_truck = [
@@ -138,7 +152,10 @@ opfor_air = [
 	"vn_b_air_uh1c_04_02",
 	"vn_b_air_uh1c_02_02",
 	"vn_b_air_ah1g_10_usmc",
-	"vn_b_air_f4c_chico"
+	"vn_b_air_f4c_chico",
+	"vn_b_air_f100d_bmb" // new
+	
+	
 ];
 
 opfor_statics = [
@@ -207,4 +224,14 @@ opfor_recyclable = [
 	["vn_b_air_ah1g_10_usmc",12,round (850 / GRLIB_recycling_percentage),26],
 	//
 	["vn_b_air_f4c_chico",16,round (1500 / GRLIB_recycling_percentage),30]
+	
+	// new
+	["vn_b_air_f100d_bmb",14,round (1200 / GRLIB_recycling_percentage),30],
+	["vn_b_armor_m113_01",2,round (50 / GRLIB_recycling_percentage),5],
+	["vn_b_armor_m113_acav_04",2,round (60 / GRLIB_recycling_percentage),5],
+	["vn_b_armor_m113_acav_06",2,round (80 / GRLIB_recycling_percentage),5],
+	["vn_b_boat_10_01",10,round (200 / GRLIB_recycling_percentage),20],
+	["vn_b_boat_12_04",10,round (200 / GRLIB_recycling_percentage),20]
+	["FP_B_TNK_M48A1",10,round (1000 / GRLIB_recycling_percentage),25],
+	["FP_B_TNK_M42",10,round (700 / GRLIB_recycling_percentage),25],
 ];
