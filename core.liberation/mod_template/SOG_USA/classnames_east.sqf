@@ -223,7 +223,7 @@ opfor_recyclable = [
 	//
 	["vn_b_air_ah1g_10_usmc",12,round (850 / GRLIB_recycling_percentage),26],
 	//
-	["vn_b_air_f4c_chico",16,round (1500 / GRLIB_recycling_percentage),30]
+	["vn_b_air_f4c_chico",16,round (1500 / GRLIB_recycling_percentage),30],
 	
 	// new
 	["vn_b_air_f100d_bmb",14,round (1200 / GRLIB_recycling_percentage),30],
@@ -231,7 +231,7 @@ opfor_recyclable = [
 	["vn_b_armor_m113_acav_04",2,round (60 / GRLIB_recycling_percentage),5],
 	["vn_b_armor_m113_acav_06",2,round (80 / GRLIB_recycling_percentage),5],
 	["vn_b_boat_10_01",10,round (200 / GRLIB_recycling_percentage),20],
-	["vn_b_boat_12_04",10,round (200 / GRLIB_recycling_percentage),20]
+	["vn_b_boat_12_04",10,round (200 / GRLIB_recycling_percentage),20],
 	["FP_B_TNK_M48A1",10,round (1000 / GRLIB_recycling_percentage),25],
-	["FP_B_TNK_M42",10,round (700 / GRLIB_recycling_percentage),25],
+	["FP_B_TNK_M42",10,round (700 / GRLIB_recycling_percentage),25]
 ];
